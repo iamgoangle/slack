@@ -1,4 +1,5 @@
-# Jordy Oh My BOT
+# Oh My Jordi BOT
+![Image of Slack BOT](https://raw.githubusercontent.com/iamgoangle/slack/master/screenshot/logo.png)
 
 ### About
 
@@ -15,21 +16,23 @@ Jordy is my best friends.
 
 <https://slack.dev/node-slack-sdk/tutorials/local-development>
 
-#### Add Interactive Component
+#### Create BOT to listening workspace events
+![Image of BOT Event](https://raw.githubusercontent.com/iamgoangle/slack/master/screenshot/event_subscribe.jpg)
 
-- run ngrok
-- Got to Interactive Component menu, then enter your url. For example `https://8e8ec2d7.ngrok.io/slack/actions`
-- Event API <https://api.slack.com/events/message>
+- run bot events server.
+- run ngrok.
+- Got to Interactive Component menu, then enter your url. For example `https://8e8ec2d7.ngrok.io/slack/events`.
+- Grant bot event subscribe.
+
+**Read more about events** <https://api.slack.com/events/message>
 
 ### Interactive Messages
 
 <https://slack.dev/node-slack-sdk/interactive-messages>
 
-### Hubot
-
-<https://hubot.github.com/>
-
 ### Customize Slack BOT
 
 [slack.com/customize/slackbot](https://slack.com/customize/slackbot?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier)
 
+### Notes
+if you want to create a slackbot with easy sdk and framework, you can use <https://hubot.github.com/>
