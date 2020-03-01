@@ -30,7 +30,7 @@ Your bot can subscribe all or specific of event in Slack such as new message in 
 ![Image of BOT Event](https://raw.githubusercontent.com/iamgoangle/slack/master/screenshot/event_subscribe.jpg)
 
 - Start your node server. I am running using port `:3000` for the example.
-- Start `ngrok http 3000` I using ngrok for expose my node application to publicly accessible URL.
+- Start `ngrok http 3000` I using ngrok for expose my node application to publicly accessible URL. This is how to setup <https://api.slack.com/tutorials/tunneling-with-ngrok>.
 - Go to **Event Subscriptions menu**, then enter your url. For example `https://8e8ec2d7.ngrok.io/slack/events`.
 - Grant **oAuth Scope** for bot event subscribe.
 
@@ -39,6 +39,10 @@ Your bot can subscribe all or specific of event in Slack such as new message in 
 ### Use case: Interactive Messages
 
 <https://slack.dev/node-slack-sdk/interactive-messages>
+
+### Use case: POST message back to Slack
+
+<https://api.slack.com/methods/chat.postMessage>
 
 ### Customize Slack BOT
 
