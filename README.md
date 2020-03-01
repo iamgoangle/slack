@@ -15,6 +15,10 @@ In the repository, I implement Slack bot application with the Slack Node.js SDK 
 
 You can configure your bot profile in Basic Information.
 
+### oAuth permission scopes
+
+- <https://api.slack.com/docs/oauth-scopes>
+
 ### How to develop Slack Bot in local
 
 <https://slack.dev/node-slack-sdk/tutorials/local-development>
@@ -43,3 +47,4 @@ Your bot can subscribe all or specific of event in Slack such as new message in 
 ### Other options
 
 <https://hubot.github.com/> provides capability to create a Slack bot and also contains give developer to use the tools to easily developer their own slack application.
+
