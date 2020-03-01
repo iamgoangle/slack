@@ -6,7 +6,8 @@
   "scripts": {
     "dev:post": "node push.js",
     "dev:event": "npx nodemon listen_event.js 3000",
-    "dev:interactive": "npx nodemon interactive_message.js 3000"
+    "dev:interactive": "npx nodemon interactive_message.js 3000",
+    "dev": "npx nodemon app.js 3000"
   },
   "repository": {
     "type": "git",

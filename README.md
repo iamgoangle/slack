@@ -23,7 +23,7 @@ You can configure your bot profile in Basic Information.
 
 <https://slack.dev/node-slack-sdk/tutorials/local-development>
 
-#### Usecase: Create BOT to listening workspace events
+**Usecase: Create BOT to listening workspace events**
 
 Your bot can subscribe all or specific of event in Slack such as new message in your channels.
 
@@ -36,19 +36,30 @@ Your bot can subscribe all or specific of event in Slack such as new message in 
 
 **Read more about events** <https://api.slack.com/events/message>
 
-### Use case: Interactive Messages
+**Use case: Interactive Messages**
 
 <https://slack.dev/node-slack-sdk/interactive-messages>
 
-### Use case: POST message back to Slack
+**Use case: Slash Command**
+
+- <https://girliemac.com/blog/2016/10/24/slack-command-bot-nodejs/>
+- <https://github.com/slackapi/template-slash-command-and-dialogs/blob/master/src/index.js>
+- <https://api.slack.com/interactivity/slash-commands>
+- <https://scotch.io/tutorials/create-a-custom-slack-slash-command-with-nodejs-and-express>
+
+**Interactive BOT Design tools** 
+
+Use [Slack Block Kit](https://api.slack.com/block-kit) and [Block Kit Builder](https://api.slack.com/tools/block-kit-builder) to create interactive messages.
+
+**Use case: POST message back to Slack**
 
 <https://api.slack.com/methods/chat.postMessage>
 
-### Customize Slack BOT
+##### Customize Slack BOT
 
 [slack.com/customize/slackbot](https://slack.com/customize/slackbot?utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier&utm_source=zapier.com&utm_medium=referral&utm_campaign=zapier)
 
-### Other options
+##### Other options
 
 <https://hubot.github.com/> provides capability to create a Slack bot and also contains give developer to use the tools to easily developer their own slack application.
 
