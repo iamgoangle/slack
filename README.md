@@ -41,7 +41,7 @@ Your bot can subscribe all or specific of event in Slack such as new message in 
 <https://slack.dev/node-slack-sdk/interactive-messages>
 
 **Use case: Slash Command**
-![slash command](https://github.com/iamgoangle/slack/blob/master/screenshot/slash_preview.gif?raw=true)
+![slash command](https://github.com/iamgoangle/slack/blob/master/screenshot/slash_preview.gif)
 
 > create new commmand
 ![create new command](https://raw.githubusercontent.com/iamgoangle/slack/master/screenshot/slash_01.png)
