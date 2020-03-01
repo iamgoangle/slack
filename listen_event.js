@@ -1,4 +1,7 @@
 const { createEventAdapter } = require('@slack/events-api')
+const dotenv = require('dotenv')
+dotenv.config()
+
 const slackEvents = createEventAdapter(process.env.SLACK_SIGNING_SECRET)
 const port = process.env.PORT || 3000
 

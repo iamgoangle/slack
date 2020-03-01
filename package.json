@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "push": "env SLACK_TOKEN=xoxb-xxx node push.js",
-    "serve": "env SLACK_SIGNING_SECRET=xxx node listen_event.js",
-    "message": "env SLACK_SIGNING_SECRET=xxx node interactive_message.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:post": "node push.js",
+    "dev:event": "npx nodemon listen_event.js 3000",
+    "dev:interactive": "npx nodemon interactive_message.js 3000"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,7 @@
     "@slack/events-api": "^2.3.1",
     "@slack/interactive-messages": "^1.4.1",
     "@slack/web-api": "^5.7.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "request": "^2.88.2"
   }
