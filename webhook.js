@@ -1,7 +1,7 @@
 var request = require('request');
 var options = {
   'method': 'POST',
-  'url': 'https://hooks.slack.com/services/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',
+  'url': 'https://hooks.slack.com/services/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xxx',
   'headers': {
     'Content-type': 'application/json'
   },
